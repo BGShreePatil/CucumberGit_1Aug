@@ -28,16 +28,19 @@ public class LoginTest {
 		
 		orobj.username.sendKeys("tomsmith");
 		orobj.password.sendKeys("SuperSecretPassword!");
+		System.out.println("Test after change");
 	}
 
 	@When("Clicks on Login button")
 	public void clicks_on_Login_button() {
 		System.out.println("Clicks on Login button");
 		orobj.login.click();
+		System.out.println("Test after change");
 	}
 
 	@Then("User Logged in successfully")
 	public void user_Logged_in_successfully() {
 		System.out.println("User Logged in successfully");
+		System.out.println("Test after change");
 	}
 }
