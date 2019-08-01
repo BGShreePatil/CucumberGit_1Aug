@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-01T05:01:02.921Z",
+        "line": 3,
+        "name": "Login With valid Credential",
+        "description": "",
+        "id": "test-login-functionality-of-hirokuapp;login-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13846885600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on home Page",
+            "match": {
+              "location": "LoginTest.user_is_on_home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 257218500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enters Username and Password",
+            "match": {
+              "location": "LoginTest.user_Enters_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1152225900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks on Login button",
+            "match": {
+              "location": "LoginTest.clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Logged in successfully",
+            "match": {
+              "location": "LoginTest.user_Logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test login Functionality of HirokuApp",
+    "description": "",
+    "id": "test-login-functionality-of-hirokuapp",
+    "keyword": "Feature",
+    "uri": "file:features/login.feature",
+    "tags": []
+  }
+]
