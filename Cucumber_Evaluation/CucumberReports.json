@@ -1,0 +1,146 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login With Valid Credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9648394700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on home page",
+            "match": {
+              "location": "TestMeAppStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 782173900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username and password and click on Login button",
+            "match": {
+              "location": "TestMeAppStepDefinition.user_enters_username_and_password_and_click_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30064600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be logged in and verified",
+            "match": {
+              "location": "TestMeAppStepDefinition.user_should_be_logged_in_and_verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-08-07T09:06:44.987Z",
+        "line": 11,
+        "name": "Successfull Checkout",
+        "description": "",
+        "id": "end-to-end-scenario-for-testmeapp;successfull-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2814696800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Navigate to All categories - electronics and Head phone",
+            "match": {
+              "location": "TestMeAppStepDefinition.navigate_to_All_categories_electronics_and_Head_phone()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 437683300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Add product into shopping cart",
+            "match": {
+              "location": "TestMeAppStepDefinition.add_product_into_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1070421600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Proceed to checkout",
+            "match": {
+              "location": "TestMeAppStepDefinition.proceed_to_checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4479026600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select bank and credentials",
+            "match": {
+              "location": "TestMeAppStepDefinition.select_bank_and_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6791900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Redirected to Thank you page",
+            "match": {
+              "location": "TestMeAppStepDefinition.redirected_to_Thank_you_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ProductScenario"
+          },
+          {
+            "name": "@AddToCartandPaymentProcess"
+          }
+        ]
+      }
+    ],
+    "name": "End to End Scenario for TestMeApp",
+    "description": "  Login with Linda Acccount and purchase product and complete payment process.",
+    "id": "end-to-end-scenario-for-testmeapp",
+    "keyword": "Feature",
+    "uri": "file:features/TestMeAppTest.feature",
+    "tags": [
+      {
+        "name": "@ProductScenario",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
